@@ -4,12 +4,15 @@ license = "license"
 author = "Jane Doe"
 maintainer = "jane.doe@example.com"
 copyright = "Copyright 2022, Jane Doe"
+
 [build]
 auto-executables = true
 auto-tests = true
 auto-examples = true
+
 [install]
 library = false
+
 [dependencies]
 test-drive = { git = "https://github.com/fortran-lang/test-drive.git" }
 json-fortran = { git = "https://github.com/jacobwilliams/json-fortran.git" }
